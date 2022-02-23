@@ -1,0 +1,36 @@
+.clinic-tab-main {
+  .clinic-tab-paper {
+    padding: 0px;
+  }
+  .clinic-tabs {
+    color: black;
+    font-weight: 600;
+    width: 33.33%;
+    color: #085044;
+    height: 53px;
+    max-width: initial;
+    border: 1px solid #debcbd;
+    background-color: #f0f0f0;
+    &.Mui-selected {
+      border: 1px solid #debcbb;
+      background-color: #fddedd;
+      color: #085044;
+      width: 33.33%;
+    }
+  }
+  .MuiPaper-elevation1 {
+    box-shadow: none;
+    border: 1px solid #debcbd;
+  }
+  .MuiPaper-rounded {
+    border-radius: 0px;
+  }
+  .PrivateTabIndicator-colorPrimary-13 {
+    background-color: none;
+  }
+}
+
+.py-4 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}

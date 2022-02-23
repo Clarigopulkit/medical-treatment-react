@@ -1,0 +1,62 @@
+.advanced-search {
+
+  .advanced-search-paper {
+    margin-top: 25px;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 0px;
+    border: 1px solid #ddbcbc;
+  }
+  .ad-search-grid-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .advance-search-button {
+    box-shadow: none;
+    font-family: open sans !important;
+  }
+  .paper-content {
+    margin: 20px 0px;
+    color: #085044;
+    font-size: 18px;
+  }
+  .advanced-search-card {
+    min-height: 110px;
+    width: 100%;
+    height: 85%;
+    padding: 21px;
+    border-radius: initial;
+    margin-bottom: 10px;
+    border: 1px solid #debcbd;
+    box-shadow: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .advance-search-heading {
+    font-size: 36px;
+    color: #085044;
+    font-family: Dosis !important;
+    font-weight: 500;
+    width: 85%;
+  }
+  .grid-cards {
+    text-align: end;
+  }
+  .treatment-video-button {
+    padding: 15px 21px;
+    display: inline-block;
+    border: 1px solid #ddbcbc;
+    background-color: #ffdedd;
+    color: #085044;
+    border-radius: 100px;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .treatment-content {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #446455;
+  }
+}
+

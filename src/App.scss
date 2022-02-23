@@ -1,0 +1,180 @@
+
+@font-face {
+  font-family: "HelveticaMd";
+  font-style: normal;
+  font-weight: unset;
+  src: local("Helvetica Neue LT Std Regular"),
+    url(./utils/fonts/HelveticaNeueLTStd-Md.otf) format("opentype");
+}
+@font-face {
+  font-family: "HelveticaBd";
+  font-style: normal;
+  font-weight: 0;
+  src: local("Helvetica Neue LT Std Bold"),
+    url(./utils/fonts/HelveticaNeueLTStd-Bd.otf) format("opentype");
+}
+@font-face {
+  font-family: "Helvetica-Mdi";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Helvetica Neue LT Std Regular Italic"),
+    url(./utils/fonts/HelveticaNeueLTStd-MdIt.otf) format("opentype");
+}
+@font-face {
+  font-family: "Helvetica-Bdi";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Helvetica Neue LT Std Bold Italic"),
+    url(./utils/fonts/HelveticaNeueLTStd-BdIt.otf) format("opentype");
+}
+
+
+@font-face {
+  font-family: "CarlaSans";
+  font-style: normal;
+  font-weight: unset;
+  src: local("CarlaSans"),
+    url(/utils/fonts/CarlaSans/OTF/CarlaSans.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Dosis";
+  src: local("Dosis Light"),
+  url(./utils/fonts/Dosis/Dosis-Light.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: "Dosis Bold";
+  src: local("Dosis bold"),
+  url(./utils/fonts/Dosis/Dosis-Bold.ttf) format("opentype");
+}
+
+
+@font-face {
+  font-family: "Dosis Semi";
+  src: local("Dosis Semi"),
+  url(./utils/fonts/Dosis/Dosis-SemiBold.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: "Dosis-Medium";
+  src: local("Dosis-Medium"),
+  url(./utils/fonts/Dosis/Dosis-Medium.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: "Angelinas";
+  src: local("Angelinas"),
+  url(./utils/fonts/angelinas/Angelinas.otf) format("opentype");
+}
+@font-face {
+  font-family: "Angelinas";
+  src: local("Angelinas"),
+  url(./utils/fonts/angelinas/Angelinas.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans"),
+ url(./utils/fonts/static/OpenSans/OpenSans-Regular.ttf)
+}
+
+@font-face {
+  font-family: "Open Sans Bold";
+  src: local("Open Sans Bold"),
+ url(./utils/fonts/static/OpenSans/OpenSans-SemiBold.ttf)
+}
+
+@font-face {
+  font-family: "Open Sans Semi Bold";
+  src: local("Open Sans Semi Bold"),
+ url(./utils/fonts/static/OpenSans/OpenSans-SemiBold.ttf)
+}
+
+
+.App {
+  text-align: center;
+}
+body{
+  margin:0px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: blue;
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+
+// Common styling
+ul{
+  list-style-type: none;
+}
+*{
+  box-sizing: border-box;
+}
+
+.titleCls{
+  text-transform: capitalize !important;
+   font-size: 20px !important;
+   text-align: center;
+   color:#085044 !important;
+   font-family: Dosis Bold !important;
+   margin-top: 5px !important;
+}
+.FontFamMain{
+  color: white !important;
+  z-index: 1 !important;
+  width: 80% !important; 
+  font-family: Dosis light !important;
+}
+.descriptionBoby{
+  font-size: 14px !important;
+  text-align: center
+}
+
+.titleClsCategory{
+  text-transform: capitalize !important;
+   font-size: 20px !important;
+   text-align: center;
+   color:#085044 !important;
+   font-family: Dosis-Medium !important;
+   margin-top: 5px !important;
+}
+
+.Categorydescription{
+   font-size: 15px !important;
+   color:#446455 !important;
+   font-family: Open Sans !important;
+   margin-top: 5px !important;
+}

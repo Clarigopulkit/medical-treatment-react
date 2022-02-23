@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/features/SP/Doctor/AddNewDoctor/index.css"],"names":[],"mappings":"AAAA,UACE,qBACF,CAEA,MACE,kBAAmB,CACnB,qBACF","file":"9.62ea9da9.chunk.css","sourcesContent":[".bg-white {\n  background-color: white;\n}\n\n.py-4 {\n  padding-top: 1.5rem;\n  padding-bottom: 1.5rem;\n}\n"]}

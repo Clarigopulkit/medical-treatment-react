@@ -1,0 +1,2 @@
+(this["webpackJsonpbt-frontend"]=this["webpackJsonpbt-frontend"]||[]).push([[11],{657:function(t,n,e){"use strict";e.r(n);var c=e(1),i=e.n(c),b=e(21),r=e(261),s=e(0);n.default=function(){var t=Object(b.b)(r.c).loading,n=Object(b.a)();return i.a.useEffect((function(){n(Object(r.b)())}),[]),Object(s.jsx)(s.Fragment,{children:Object(s.jsx)("div",{children:t&&Object(s.jsx)("div",{children:"Loading"})})})}}}]);
+//# sourceMappingURL=11.5ca89dcc.chunk.js.map

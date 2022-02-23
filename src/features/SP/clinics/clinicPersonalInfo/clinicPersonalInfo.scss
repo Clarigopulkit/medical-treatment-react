@@ -1,0 +1,188 @@
+.clinic-profile-personal-info-tab {
+  .MuiSelect-select:focus {
+    background-color: initial;
+  }
+  .MuiOutlinedInput-adornedStart {
+    border-radius: 40px;
+    height: 40px;
+  }
+  .upload-media-grid-container {
+    margin-bottom: 15px;
+  }
+  .work-experince-paper {
+    padding: 15px;
+    margin-bottom: 30px;
+  }
+  .business-info-container {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .change-profile-container {
+    margin-bottom: 15px;
+  }
+  .status-drop-down {
+    width: 100%;
+    border-radius: 50px;
+    height: 50px;
+  }
+  .status-select-grid-item {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+  }
+  .clinic-details {
+    font-size: 16px;
+    color: #085044;
+    margin-bottom: 5px;
+    margin-left: 15px;
+  }
+  .clinic-profile-change-button {
+    box-shadow: none;
+    height: 42px;
+    margin-top: 10px;
+  }
+  .clinic-info-container {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+  .clinic-grid-item {
+    display: grid;
+  }
+  .makeStyles-root-30 > * {
+    margin: 0px;
+  }
+  .office-address-title {
+    font-size: 24px;
+    color: #085044;
+    margin-right: 33px;
+    margin-top: 10px;
+    margin-bottom: 1px;
+  }
+  .personal-info-container {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+  }
+  .add-icon {
+    color: #085044;
+  }
+  .add-info-icon {
+    color: #085044;
+  }
+  .office-address-grid {
+    display: flex;
+    align-items: center;
+  }
+  .add-icon-grid-item {
+    text-align: end;
+    padding-right: 25px;
+  }
+  .verify-icon-grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 25px;
+  }
+  .input-label {
+    margin-top: 0px;
+    height: 42px;
+    width: 95%;
+    border-radius: 20px;
+  }
+  .field-error {
+    color: #f44336;
+  }
+  .checkbox-grid {
+    display: flex;
+    align-items: center;
+  }
+  .change-password-button {
+    margin: 0px;
+    height: 42px;
+  }
+  .office-address-content {
+    font-size: 16px;
+    color: #085044;
+  }
+  .checkbox-grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .checkbox-grid {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .footer-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .upload-button {
+    width: 100%;
+    box-shadow: none;
+  }
+  .save-account-details-button {
+    box-shadow: none;
+  }
+  .login-text-field {
+    border-radius: 20px;
+    height: 30px;
+    outline: none;
+  }
+  .login-text-fields {
+    border-radius: 20px;
+    outline: none;
+  }
+  .first-name-salutaion-field {
+    padding: opx;
+    width: 100%;
+  }
+  .business-info-container {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .work-experince-paper {
+    padding: 15px;
+    margin-bottom: 30px;
+  }
+  .doctor-profile-change-button {
+    box-shadow: none;
+    height: 42px;
+    margin-top: 10px;
+    padding-bottom: -5px;
+  }
+  .makeStyles-textField-24 {
+    margin-bottom: 30px;
+  }
+  .address-line-1 {
+    padding: 12px;
+    height: 42px;
+  }
+  .professional-grid-item {
+    display: grid;
+  }
+  .height-41 {
+    height: 36px;
+    padding: 5px 20px;
+  }
+
+  .input-with-dropdown{
+    padding-left: 0px !important;
+  }
+
+}
+
+.scrollView::-webkit-scrollbar {
+  display: none !important;
+}
+
+#input-with-dropdown{
+  padding-left: 0px !important;
+}

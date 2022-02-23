@@ -1,0 +1,100 @@
+.bb {
+  border-top: 1px solid #e7d2d2;
+}
+
+.border-0 {
+  border: 0px !important;
+}
+
+.py-4 {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+
+.px-2 {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.px-3 {
+  padding-right: 1.25rem !important;
+  padding-left: 1.25rem !important;
+}
+
+.px-4 {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+}
+
+.px-4 {
+  padding-right: 2rem !important;
+  padding-left: 2rem !important;
+}
+.clinic-tab-paper {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.list_image {
+  width: 140px;
+}
+
+.fs-20 {
+  font-size: 20px !important;
+}
+
+.fs-18 {
+  font-size: 18px !important;
+}
+
+.Al {
+  text-align: left !important;
+}
+
+.fs-25 {
+  font-size: 25px;
+}
+
+.fs-35 {
+  font-size: 35px !important;
+}
+
+.golden {
+  color: #eb6728;
+}
+
+.fw-800 {
+  font-weight: 800 !important;
+}
+
+.fw-700 {
+  font-weight: 700 !important;
+}
+
+.bg-white {
+  background-color: white !important;
+}
+
+.cg {
+  color: #085044 !important;
+}
+.b-g {
+  border: 1px solid #085044 !important;
+}
+
+.py-3 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.makeStyles-customChange-112 {
+  font-size: 16px !important;
+}
+
+.MuiButton-text .upload-button {
+  padding: 0px !important;
+}
+
+.doctor-item:hover {
+  background-color:  #f4f4f4;
+}

@@ -1,0 +1,42 @@
+.profile-tab-main {
+  max-width: 1679px !important;
+  margin: 0 auto;
+  .profile-tab-paper {
+    padding: 30px;
+  }
+  .profile-tabs {
+    color: black;
+    font-weight: 600;
+    width: 20%;
+    height: 53px;
+    color: #085044;
+    max-width: initial;
+    border-right: 1px solid #debcbd;
+    border-top: 1px solid #debcbd;
+    background-color: #f0f0f0;
+    font-size: 18px;
+    font-weight: bold;
+    &.Mui-selected {
+      background-color: #fddedd;
+      color: #085044;
+      width: 20%;
+    }
+  }
+  .MuiPaper-elevation1 {
+    box-shadow: none;
+    border: 1px solid #debcbd;
+  }
+  .MuiPaper-rounded {
+    border-radius: 0px;
+  }
+  .PrivateTabIndicator-colorPrimary-13 {
+    background-color: initial !important;
+  }
+  .PrivateTabIndicator-colorPrimary-13,
+  .PrivateTabIndicator-colorPrimary-85,
+  .PrivateTabIndicator-colorPrimary-88,
+  .PrivateTabIndicator-colorPrimary-396,
+  .PrivateTabIndicator-colorPrimary-17 {
+    background-color: transparent !important;
+  }
+}

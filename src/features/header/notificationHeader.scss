@@ -1,0 +1,40 @@
+.FontFam{
+  font-family:"Open Sans Regular" !important
+}
+.notification-header {
+  .MuiPaper-elevation4 {
+    box-shadow: none;
+    height: 45px;
+  }
+  .notification-header-container {
+    align-items: baseline;
+  }
+
+  .notification-header-app-bar {
+    color: white;
+    background-color: #085044;
+    text-align: center;
+    min-height: 45px !important;
+    height: fit-content !important;
+    display: "flex";
+    justify-content: space-evenly !important;
+  }
+  .notification-header-title {
+    font-size: 14px;
+    text-align: end;
+  }
+  .notification-header-title-content {
+    font-size: 14px;
+  }
+  .notification-header-title-link {
+    text-align: left;
+  }
+  .book-appointment-link {
+    color: #18debd;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  position: sticky;
+  top: 0px;
+  z-index: 9;
+}

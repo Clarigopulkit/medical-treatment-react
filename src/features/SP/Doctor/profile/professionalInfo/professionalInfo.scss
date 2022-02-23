@@ -1,0 +1,140 @@
+.MuiChip-deleteIcon {
+  color:#085044 !important;
+}
+
+.mt-3 {
+  margin-top: 15px !important;
+}
+
+.doctor-profile-professional-info-tab {
+  .MuiSelect-select:focus {
+    background-color: initial;
+  }
+  .MuiOutlinedInput-adornedStart {
+    border-radius: 40px;
+    height: 40px;
+  }
+  .upload-media-grid-container {
+    margin-bottom: 15px;
+  }
+  .work-experince-paper {
+    padding: 15px;
+    margin-bottom: 30px;
+  }
+  .professional-info-container {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .change-profile-container {
+    margin-bottom: 15px;
+  }
+  .status-drop-down {
+    width: 100%;
+    border-radius: 50px;
+    height: 50px;
+  }
+  .status-select-grid-item {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+  }
+  .doctor-details {
+    font-size: 16px;
+    color: #085044;
+    margin-bottom: 5px;
+    margin-left: 15px;
+  }
+  .doctor-profile-change-button {
+    box-shadow: none;
+    height: 42px;
+    margin-top: 10px;
+  }
+  .makeStyles-root-30 > * {
+    margin: 0px;
+  }
+  .office-address-title {
+    font-size: 24px;
+    color: #085044;
+    margin-right: 33px;
+    margin-top: -8px;
+  }
+  .add-icon {
+    color: #085044;
+  }
+  .add-info-icon {
+    color: #085044;
+  }
+  .office-address-grid {
+    display: flex;
+    align-items: center;
+  }
+  .add-icon-grid-item {
+    text-align: end;
+    padding-right: 25px;
+  }
+  .verify-icon-grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 25px;
+  }
+  .input-label {
+    margin-top: 0px;
+    height: 42px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  .checkbox-grid {
+    display: flex;
+    align-items: center;
+  }
+  .change-password-button {
+    margin: 0px;
+    height: 42px;
+  }
+  .office-address-content {
+    font-size: 16px;
+    color: #085044;
+  }
+  .checkbox-grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .checkbox-grid {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .footer-buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+  }
+  .upload-button {
+    height: 35px;
+    width: 95%;
+    box-shadow: none;
+  }
+
+  .doctor-profile-personal-info-tab .upload-button > span {
+    font-weight: 700 !important;
+    font-size: 18px !important;
+  }
+
+  .field-error {
+    color: #f44336;
+  }
+  .professional-grid-item {
+    display: grid;
+  }
+}
+
+.makeStyles-button-100 {
+  margin-right: 30px;
+}
+
+#input-with-dropdown{
+  padding-left: 0px !important;
+}

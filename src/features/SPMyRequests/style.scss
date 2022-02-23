@@ -1,0 +1,23 @@
+.tabs-container {
+  .MuiTabs-flexContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .PrivateTabIndicator-colorSecondary-16 {
+    background-color: initial !important;
+  }
+  .login-tab {
+    text-transform: capitalize;
+    color: #446354;
+    font-weight: 600;
+    width: 33.33%;
+    max-width: initial;
+    border: 1px solid #debcbb;
+    background-color: #f0f0f0;
+    &.Mui-selected {
+      border: 1px solid #fadede;
+      background-color: #fadede;
+      font-weight: 600;
+    }
+  }
+}

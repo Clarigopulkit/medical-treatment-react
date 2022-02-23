@@ -1,0 +1,98 @@
+.FontFamMain{
+  color: white !important;
+  z-index: 1 !important;
+  width: 80% !important; 
+  font-family: Dosis !important;
+  font-size: 21px !important;
+}
+.titleCls{
+  text-transform: capitalize !important;
+   font-size: 20px !important;
+   text-align: center;
+   color:#085044 !important;
+   font-family: Dosis Bold !important;
+   margin-top: 5px !important;
+}
+.descriptionBoby{
+  font-size: 14px !important;
+  text-align: center
+}
+.InfoCompoCls{
+  display: flex; 
+  align-items: center;
+  flex: 1;
+  flex-direction: column;
+  padding: 30px
+}
+.InfoDiv{
+  padding: 0px 70px;
+  display: flex;
+  align-items: center;
+  align-self: center; 
+  justify-content: center;
+  background-image: url(../../utils/images/BG-image.png);
+  background-position: center 0%;
+  background-repeat: no-repeat;
+  background-size: 100%
+}
+.faceDiv{
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+
+.ContentContributDiv{
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 99px;
+}
+
+
+.bt-footer {
+  background-color: #085044;
+  padding: 70px;
+  .footer-content {
+    font-size: 15px;
+    color: white;
+  }
+  .footer-company-container {
+    margin-left: 50px;
+  }
+  .footer-company-content {
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+  }
+  .clinics-link {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .social-icons-link {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 5px;
+  }
+  .social-icons {
+    margin-right: 13px;
+  }
+  .bt-footer-content {
+    text-align: center;
+    color: white;
+  }
+}
+
+*{
+  transition: all 0.3s;
+}
+
+.treatment_component:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}

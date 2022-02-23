@@ -1,0 +1,14 @@
+.custom-text-field {
+  .MuiOutlinedInput-root {
+    border: 1px solid #fdf7f7;
+    border-radius: 21px;
+    height: 42px;
+  }
+  .MuiOutlinedInput-input {
+    padding: 11px 20px;
+  }
+}
+
+.error {
+  border-color: Red !important;
+}

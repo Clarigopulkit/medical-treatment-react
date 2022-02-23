@@ -1,0 +1,45 @@
+.titleCls{
+  text-transform: capitalize !important;
+   font-weight: 600 !important;
+   font-size: 25px !important;
+   text-align: center !important;
+   color:#085044 !important ;
+   float: left !important;
+   font-family: Dosis !important;
+}
+
+.tabs-container {
+  .MuiTabs-flexContainer {
+    display: flex;
+    justify-content: center;
+    
+  }
+  .PrivateTabIndicator-colorSecondary-16 {
+    background-color: #fadede !important;
+  }
+  .PrivateTabIndicator-colorSecondary-32 {
+    background-color: #fadede !important;
+  }
+  .login-tab {
+    text-transform: capitalize;
+    color: #085044;
+    font-weight: 600;
+    font-size: 16px !important;
+    width: 33.33%;
+    max-width: initial;
+    border: 1px solid #ddbcbc;
+    background-color: #f0f0f0;
+    &.Mui-selected {
+      border: 1px solid #ddbcbc;
+      background-color: #fadede !important;
+     
+      font-weight: 600;
+    }
+  }
+
+}
+.border-bottomView{
+  border: 1px solid #ddbcbc;
+  border-top: 0px;
+  box-shadow: 0px;
+  }

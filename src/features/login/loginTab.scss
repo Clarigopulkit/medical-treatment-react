@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "HelveticaMd";
+  font-style: normal;
+  font-weight: unset;
+  src: local("Helvetica Neue LT Std Regular"),
+    url(/utils/fonts/HelveticaNeueLTStd-Md.otf) format("opentype");
+}
+
+// * {
+//   font-family: Helvetica !important;
+// }
+
+.login-tab-main {
+  .PrivateTabIndicator-colorSecondary-14 {
+    background-color: white;
+  }
+  .login-tabs-container {
+    max-width: 475px;
+    .MuiTabs-flexContainer {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .login-tab {
+    color: #085044;
+    font-weight: 600 !important;
+    width: 50%;
+
+    font-family: Helvetica !important;
+    font-size: 18px !important;
+    height: 53px;
+    max-width: initial;
+    border: 1px solid #debcbd;
+    background-color: #f0f0f0;
+    &.Mui-selected {
+      border: 1px solid #debcbb;
+      background-color: #ffdedd;
+      color: #085044;
+      width: 50%;
+    }
+  }
+  .login-card {
+    max-width: 475px;
+    border: 1px solid #debcbd;
+    border-radius: initial;
+    padding: 15px 41px 42px 46px;
+  }
+}

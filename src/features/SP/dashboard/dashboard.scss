@@ -1,0 +1,120 @@
+.red {
+  background-color: red !important;
+  color: powderblue;
+}
+.BT-Dashboard {
+  .dashboard-card {
+    min-height: 115px;
+    width: 100%;
+    height: 90%;
+    padding: 20px;
+    border-radius: initial;
+    // margin-bottom: 10px;
+    border: 1px solid #ddbcbc;
+  }
+  .post-request-button {
+    text-align: right;
+    .post-request-button-content {
+      box-shadow: initial;
+      height: 40px;
+    }
+  }
+  .articles-heading {
+    font-size: 18px;
+    color: #085044;
+  }
+  .articles-sub-heading-grid {
+    border: 1px solid #ffdedd;
+    background-color: #ffdedd;
+    padding: 15px;
+    align-items: baseline;
+  }
+  .articles-sub-heading {
+    font-size: 15px;
+    color: #1389e4;
+  }
+  .quotes-badge {
+    .MuiBadge-colorPrimary {
+      background-color: white;
+      color: black;
+    }
+  }
+  .articles-content {
+    color: #085044;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .quotes-content {
+    color: #085044;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  .quotes-fee {
+    color: #085044;
+    font-size: 17px;
+  }
+  .quote-submit-button {
+    margin: 0px;
+    height: 42px;
+    box-shadow: none;
+  }
+  .rating {
+    .MuiRating-root {
+      color: #ed6827;
+    }
+  }
+  .MuiRating-root {
+    color: #ed6827;
+  }
+  .text-area-field {
+    width: 100%;
+    border-radius: 21px;
+    outline: none;
+    border: 1px solid #085044;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .grid-cards {
+    text-align: end;
+  }
+  .MuiPaper-elevation1 {
+    box-shadow: none;
+  }
+  .headings-total-content {
+    color: #085044;
+    margin-bottom: 10px;
+    font-family: OpenSans !important;
+    font-weight: 900;
+  }
+  .headings-content {
+    font-family: OpenSans !important;
+    color: #085044;
+    font-weight: 500;
+  }
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url("../../../utils/fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+.name{
+  font-family: Dosis-Medium !important;
+  font-size: 36px;
+  color: #085044;
+  margin: 12px 0px;
+}
+
+@media (max-width: 1919.95px){
+  .manage-container1 {
+      padding: 0px 60px !important;
+  }
+}
+@media (max-width: 1919.95px)
+{
+.makeStyles-content-2  {
+  padding: 0 ;
+}
+}

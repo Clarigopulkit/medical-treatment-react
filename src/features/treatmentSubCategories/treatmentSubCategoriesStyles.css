@@ -1,0 +1,10 @@
+.shadow-divider{
+    -webkit-box-shadow: -14px 0px 17px -4px rgba(0,0,0,0.17); 
+    box-shadow: -14px 0px 17px -4px rgba(0,0,0,0.17);
+    }
+
+.shadow-container{
+    -webkit-box-shadow: 0px 0px 17px -4px rgba(0,0,0,0.17); 
+    box-shadow: 0px 0px 17px -4px rgba(0,0,0,0.17);
+    background: #FFFFFF;
+    }

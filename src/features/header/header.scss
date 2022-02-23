@@ -1,0 +1,91 @@
+.header {
+  .sub-header {
+    margin: 0px;
+    border-bottom: 1px solid white;
+  }
+  .main-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .header-title {
+    display: flex;
+    justify-content: center;
+  }
+  .header-body-content {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .header-profile-icon {
+    display: flex;
+    justify-content: space-around;
+  }
+  .header-search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-app-bar {
+    color: #404040;
+    background-color: white;
+  }
+  .header-logo {
+    background: #ffdedd;
+  }
+  .header-logo-content {
+    text-align: center;
+    margin-top: 5px;
+  }
+  .sub-header {
+    background-color: white;
+    .clinics-link {
+      font-size: 16px;
+      font-family: CarlaSans !important;
+      color: #404040;
+    }
+  }
+  .user-icon-button {
+    background: white;
+    box-shadow: none;
+    .MuiButton-root:hover {
+      background-color: initial;
+    }
+  }
+  .user-icon-button:hover {
+    background: white;
+  }
+}
+
+.header .main-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  justify-content: space-around;
+  padding: 0 20px;
+}
+
+a {
+  font-size: 16px;
+  font-family: CarlaSans !important;
+  color: #085044;
+}
+
+@media (max-width: "685px") {
+  .Header_Options {
+    display: none !important;
+  }
+  .makeStyles-settings-97 {
+    justify-content: space-between !important;
+  }
+}
+
+a {
+  text-decoration: none !important;
+  font-family: CarlaSans !important;
+}

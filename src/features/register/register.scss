@@ -1,0 +1,31 @@
+.bt-register {
+  .MuiSelect-select:focus {
+    background-color: white;
+  }
+  .input-label {
+    border-radius: 50px;
+    height: 38px;
+    padding: 14px;
+  }
+  .register-button {
+    margin: 0px;
+    height: 42px;
+  }
+  .mr-6 {
+    margin-right: 2%;
+    width: 98%;
+  }
+  .ml-6 {
+    margin-left: 2%;
+    width: 98%;
+  }
+  .login-text-field {
+    color: black;
+  }
+  .register-link {
+    color: #139aef;
+  }
+  
+}
+.RegisterForm .MuiPaper-root{ top: 408px !important;
+  left: 487px !important;}
